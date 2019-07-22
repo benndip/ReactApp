@@ -12,7 +12,7 @@ export default class App extends React.Component{
     return(
       <View style={styles.container}>
         <View style={styles.text}>
-        <Text styles={{color:'white'}}>Welcome To Benndip's TicTacToe</Text>
+        <Text>Welcome To Benndip's Tic-Tac-Toe</Text>
         </View>
         
         <View style={{flexDirection:'row'}}>
@@ -51,7 +51,7 @@ const styles=StyleSheet.create({
     borderColor:'white'
   },
   text:{
-    backgroundColor:'aquamarine',
+  backgroundColor:'aquamarine',
  marginVertical:20,
  paddingTop:10
   }
