@@ -7,6 +7,8 @@ import{
 
 } from 'react-native';
 
+import Icon from 'react-native-vector-icons/FontAwesome';
+
 export default class App extends React.Component{
   render(){
     return(
@@ -14,9 +16,15 @@ export default class App extends React.Component{
         <View style={styles.text}>
         <Text>Welcome To Benndip's Tic-Tac-Toe</Text>
         </View>
-        
+       
         <View style={{flexDirection:'row'}}>
-       <TouchableOpacity><View style={[styles.tile,{borderLeftWidth:0,borderTopWidth:0}]}></View></TouchableOpacity>
+       <TouchableOpacity>
+         <View style={[styles.tile,{borderLeftWidth:0,borderTopWidth:0}]}>
+         <Icon name="circle-thin" size={60} color="#900" />
+         </View>
+       </TouchableOpacity>
+
+
        <TouchableOpacity><View style={[styles.tile,{borderTopWidth:0}]}></View></TouchableOpacity>
        <TouchableOpacity><View style={[styles.tile,{borderRightWidth:0,borderTopWidth:0}]}></View></TouchableOpacity>
         </View>
