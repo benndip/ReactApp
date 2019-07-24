@@ -40,7 +40,11 @@ export default class App extends React.Component{
         </View>
 
         <View style={{flexDirection:'row'}}>
-        <TouchableOpacity><View style={[styles.tile,{borderLeftWidth:0}]}></View></TouchableOpacity>
+        <TouchableOpacity>
+          <View style={[styles.tile,{borderLeftWidth:0}]}>
+          <Icon name="close" style={styles.tilex} />
+          </View>
+          </TouchableOpacity>
         <TouchableOpacity><View style={styles.tile}></View></TouchableOpacity>
         <TouchableOpacity><View style={[styles.tile,{borderRightWidth:0}]}></View></TouchableOpacity>
         </View>
