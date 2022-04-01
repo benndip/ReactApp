@@ -1,2 +1,2 @@
-# MyReact Tic-Tac-Toe
-This is a Tic-Tac-Toe App that I am trying to develope
+# Tic-Tac-Toe
+Complete Tic Tac Toe in React Native
